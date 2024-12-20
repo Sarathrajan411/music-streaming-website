@@ -143,22 +143,24 @@ root/
 
 1. Clone the repository:
    bash
+   
    git clone https://github.com/Sarathrajan411/music-streaming-website.git
    cd spotify-clone
    
 
-2. Install dependencies for both frontend and backend:
+3. Install dependencies for both frontend and backend:
    bash
+   
    cd client && npm install
    cd ../server && npm install
    cd ../admin-panel && npm install
    
 
-3. Set up environment variables:
+5. Set up environment variables:
    - Create .env files in server/ and admin-panel/.
    - Add MongoDB connection string, Cloudinary API keys, and other required configurations.
 
-4. Start the development servers:
+6. Start the development servers:
    bash
    # In separate terminals
    cd client && npm start
@@ -166,7 +168,7 @@ root/
    cd ../admin-panel && npm start
    
 
-5. Access the application:
+7. Access the application:
    - *User Interface*: http://localhost:3000
    - *Admin Panel*: http://localhost:4000
 
