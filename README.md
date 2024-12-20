@@ -3,10 +3,7 @@
 This full-stack music streaming application offers users a seamless music experience, complete with an admin panel for managing content. Built with React, Node.js, MongoDB, and Cloudinary, it features a responsive user interface and a scalable backend. Users can stream music, explore albums, and enjoy an intuitive and smooth experience. The integration of Cloudinary ensures efficient storage and management of media assets, making it a reliable and robust platform for both users and administrators.
 
 ###steps
-           login 
-       user name : user
-       password  : 1234     
-
+          
 Step 1: 
 
 Install dependencies for the full-stack project
@@ -44,6 +41,12 @@ Run the frontend development server.
 
 D:\user\spotify-full-stack\spotify-frontend> npm run dev
 The frontend server should be accessible at http://localhost:3000 (or whichever port is specified in the frontend config).
+
+"welcome to spotify"    
+             login 
+       user name : user
+       password  : 1234     
+
 
 Step 4: 
 
