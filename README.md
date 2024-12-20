@@ -143,7 +143,7 @@ root/
 
 1. Clone the repository:
    bash
-   git clone https://github.com/yourusername/spotify-clone.git
+   git clone https://github.com/Sarathrajan411/music-streaming-website.git
    cd spotify-clone
    
 
