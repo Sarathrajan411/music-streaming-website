@@ -22,10 +22,12 @@ D:\user\spotify-full-stack\spotify-backend
 Install backend dependencies.
 
 D:\user\spotify-full-stack\spotify-backend> npm install
+
 Start the backend server.
 
 
 D:\user\spotify-full-stack\spotify-backend> node server.js
+
 The backend server will usually run on http://localhost:5000 or a similar port, depending on your server.js configuration.
 
 
@@ -40,6 +42,7 @@ Run the frontend development server.
 
 
 D:\user\spotify-full-stack\spotify-frontend> npm run dev
+
 The frontend server should be accessible at http://localhost:3000 (or whichever port is specified in the frontend config).
 
 "welcome to spotify"    
@@ -61,10 +64,12 @@ Install the admin panel dependencies.
 
 
 D:\user\spotify-full-stack\spotify-admin> npm install
+
 Run the admin panel development server.
 
 
 D:\user\spotify-full-stack\spotify-admin> npm run dev
+
 The admin panel server will likely run on http://localhost:4000 (or a custom port as specified in the admin config).
 
 ## Overview
@@ -122,22 +127,37 @@ Admin: http://localhost:4000 (or your admin panel port)
 - *.env files*: For managing environment variables.
 
 ## Project Structure
+/ (root)
+├── .env                    # Environment variables (e.g., API keys, database credentials)
+├── .gitignore               # Git ignore file to exclude unwanted files/folders
+├── package-lock.json        # Automatically generated file that locks dependencies
+├── package.json             # Project metadata and dependencies
+├── server.js                # Main entry point for the backend server (e.g., Express.js)
+├── spotify-admin            # Directory for the admin interface
+│   ├── node_modules         # Admin panel dependencies
+│   ├── src                  # Admin panel source code
+│   └── public               # Static files for the admin panel
+├── spotify-backend          # Directory for the backend logic
+│   ├── node_modules         # Backend dependencies
+│   ├── src                  # Backend source code (e.g., routes, controllers, models)
+│   └── .env                 # Backend-specific environment variables
+└── spotify-frontend         # Directory for the frontend application
+    ├── .vite                # Vite cache and build files
+    ├── node_modules         # Frontend dependencies
+    ├── public               # Static files for the frontend (e.g., index.html, images)
+    ├── src                  # Frontend source code (e.g., components, styles)
+    │   ├── components/      # UI components
+    │   ├── styles/          # CSS or other stylesheets
+    │   └── ...              # Other necessary frontend assets
+    ├── .eslintrc.cjs         # ESLint configuration for frontend linting
+    ├── .gitignore            # Frontend-specific Git ignore file
+    ├── index.html           # Main HTML file for the frontend
+    ├── package-lock.json    # Lock file for frontend dependencies
+    ├── package.json         # Metadata and dependencies for the frontend
+    ├── postcss.config.js    # PostCSS configuration (likely for Tailwind CSS)
+    ├── README.md            # Project documentation
+    └── vite.config.js       # Vite configuration for the frontend build
 
-root/
-|-- client/               # React frontend
-|-- server/               # Node.js backend
-|-- admin-panel/          # Admin panel for content management
-|-- config/               # Configuration files (e.g., Cloudinary, database)
-|-- public/               # Public assets
-|-- src/                  # Source files for the application
-|-- assets/               # Assets for the admin panel
-|-- server.js             # Main server entry point
-|-- node_modules/         # Node.js dependencies
-|-- .bin/                 # Executable binaries from npm packages
-|-- .eslintrc.cjs         # ESLint configuration
-|-- .gitignore            # Files to ignore in Git versioning
-|-- postcss.config.js     # PostCSS configuration
-|-- tailwind.config.js    # Tailwind CSS configuration
 
 
 ## Installation and Setup
