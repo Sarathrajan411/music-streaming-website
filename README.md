@@ -192,9 +192,9 @@ root/
 - Implement recommendations based on user preferences.
 - Integrate a payment gateway for premium subscriptions.
 
-#Acknowledgements
+## Acknowledgements
 
-Special thanks to the React and Node.js communities for their extensive documentation and support.
+- Special thanks to the React and Node.js communities for their extensive documentation and support.
 Gratitude to Cloudinary for providing excellent storage solutions.
 Appreciation to MongoDB for its powerful NoSQL database technology.
 Thanks to Tailwind CSS for simplifying responsive and modern design.
