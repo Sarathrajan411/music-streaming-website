@@ -45,6 +45,7 @@ The frontend server should be accessible at http://localhost:3000 (or whichever 
 "welcome to spotify"    
              login 
        user name : user
+       
        password  : 1234     
 
 
