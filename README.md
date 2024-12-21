@@ -1,4 +1,4 @@
-##### Spotify-Inspired Music Streaming App
+# Spotify-Inspired Music Streaming App
 
 This full-stack music streaming application offers users a seamless music experience, complete with an admin panel for managing content. Built with React, Node.js, MongoDB, and Cloudinary, it features a responsive user interface and a scalable backend. Users can stream music, explore albums, and enjoy an intuitive and smooth experience. The integration of Cloudinary ensures efficient storage and management of media assets, making it a reliable and robust platform for both users and administrators.
 
