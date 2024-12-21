@@ -43,11 +43,12 @@ D:\user\spotify-full-stack\spotify-frontend> npm run dev
 The frontend server should be accessible at http://localhost:3000 (or whichever port is specified in the frontend config).
 
 "welcome to spotify"    
-             login 
+             
        user name : user
        
        password  : 1234     
 
+          login
 
 Step 4: 
 
