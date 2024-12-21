@@ -9,7 +9,7 @@ This full-stack music streaming application offers users a seamless music experi
 Install dependencies for the full-stack project
 Navigate to the root folder and install the project dependencies.
 
-# D:\user\spotify-full-stack> npm install
+      D:\user\spotify-full-stack> npm install
 
 
 # Step 2: 
@@ -21,12 +21,12 @@ Navigate to the backend folder.
 D:\user\spotify-full-stack\spotify-backend
 Install backend dependencies.
 
-# D:\user\spotify-full-stack\spotify-backend> npm install
+     D:\user\spotify-full-stack\spotify-backend> npm install
 
 Start the backend server.
 
 
-# D:\user\spotify-full-stack\spotify-backend> node server.js
+      D:\user\spotify-full-stack\spotify-backend> node server.js
 
 The backend server will usually run on http://localhost:5000 or a similar port, depending on your server.js configuration.
 
@@ -41,7 +41,7 @@ D:\user\spotify-full-stack\spotify-frontend
 Run the frontend development server.
 
 
-# D:\user\spotify-full-stack\spotify-frontend> npm run dev
+      D:\user\spotify-full-stack\spotify-frontend> npm run dev
 
 The frontend server should be accessible at http://localhost:3000 (or whichever port is specified in the frontend config).
 
@@ -63,7 +63,7 @@ D:\user\spotify-full-stack\spotify-admin
 Install the admin panel dependencies.
 
 
-# D:\user\spotify-full-stack\spotify-admin> npm install
+ D:\user\spotify-full-stack\spotify-admin> npm install
 
 Run the admin panel development server.
 
