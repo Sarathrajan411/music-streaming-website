@@ -1,10 +1,10 @@
-### Spotify-Inspired Music Streaming App
+#### Spotify-Inspired Music Streaming App
 
 This full-stack music streaming application offers users a seamless music experience, complete with an admin panel for managing content. Built with React, Node.js, MongoDB, and Cloudinary, it features a responsive user interface and a scalable backend. Users can stream music, explore albums, and enjoy an intuitive and smooth experience. The integration of Cloudinary ensures efficient storage and management of media assets, making it a reliable and robust platform for both users and administrators.
 
 ### steps
           
-## Step 1: 
+# Step 1: 
 
 Install dependencies for the full-stack project
 Navigate to the root folder and install the project dependencies.
@@ -12,7 +12,7 @@ Navigate to the root folder and install the project dependencies.
 D:\user\spotify-full-stack> npm install
 
 
-## Step 2: 
+# Step 2: 
 
 Set up the backend
 Navigate to the backend folder.
@@ -29,7 +29,7 @@ D:\user\spotify-full-stack\spotify-backend> node server.js
 The backend server will usually run on http://localhost:5000 or a similar port, depending on your server.js configuration.
 
 
-## Step 3: 
+# Step 3: 
 
 Run the frontend
 Navigate to the frontend folder.
@@ -50,7 +50,7 @@ The frontend server should be accessible at http://localhost:3000 (or whichever 
 
           login
 
-## Step 4: 
+# Step 4: 
 
 Set up the admin panel
 Navigate to the admin folder.
